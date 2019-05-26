@@ -1,0 +1,20 @@
+
+Video是一个抽象类
+有一个录制视频的抽象方法produce()
+
+JavaVideo继承了Video抽象类
+实现了produce()方法
+
+PythonVideo继承了Video抽象类
+实现了produce()方法
+
+Video是一个生产Video的简单工厂类
+生产对象使用的实例方法，没有使用静态方法
+有一个根据标记生成对应Video继承类的方法getVideo(String typr)
+有一个根据类的类型生成对应Video继承类的方法getVideo(Class c)
+
+Test1New演示了直接new对象，应用代码依赖各种实现类的情况
+
+Test2VideoFactoryByType演示了使用简单工厂创建对象，应用代码不依赖各种实现类的情况
+
+Test3VideoFactoryByClass演示了在简单工厂中使用反射提高简单工厂的扩展性，但是这种情况还是会使应用代码依赖各种实现类

@@ -10,5 +10,4 @@ public interface Employee {
      * 员工的作报告的方法（行为）
      */
     void report();
-
 }
