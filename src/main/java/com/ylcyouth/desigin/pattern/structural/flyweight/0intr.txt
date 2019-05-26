@@ -1,0 +1,18 @@
+
+定义Employee接口
+定义Manager类，实现Employee接口
+
+Employee类里面定义了一个report方法作报告
+
+Manager类里面有三个变量 title(初始值为部门经理)，department，reportContent
+设置报告的方法
+根据department创建manager对象的方法
+
+定义EmployeeFactory享元类
+有一个HashMap变量，用来保存创建好的各个部门的manager对象，它们是享元对象
+有一个getManger(p)方法，用来返回享元对象，如果hashMap里面有创建好的直接返回回去，如果没有创建一个放到hashMap里面然后返回
+
+getManager(String department)方法里，
+创建manager对象并放到hashMap里面
+title是在manger对象里面定义好并且附初始值的，它是内部状态，不受department的影响
+创建享元对象的时候传过来的department是外部状态
