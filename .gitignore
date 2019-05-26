@@ -1,0 +1,57 @@
+# Created by .ignore support plugin (hsz.mobi)
+#.gitignore
+#.idea/compiler.xml
+#.idea/dictionaries/
+#.idea/encodings.xml
+#.idea/file.template.settings.xml
+#.idea/misc.xml
+#.idea/workspace.xml
+#design-pattern.iml
+
+###################################################
+#拷贝的
+
+*.class
+
+#package file
+
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+
+###################################################
+#后来添加的
+
+design-pattern.iml
+
+/.idea/vcs.xml
