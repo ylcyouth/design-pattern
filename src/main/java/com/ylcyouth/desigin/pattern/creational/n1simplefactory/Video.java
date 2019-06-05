@@ -1,4 +1,4 @@
-package com.ylcyouth.desigin.pattern.creational.simplefactory.abstractclass;
+package com.ylcyouth.desigin.pattern.creational.n1simplefactory;
 
 /**
  * @author wjj

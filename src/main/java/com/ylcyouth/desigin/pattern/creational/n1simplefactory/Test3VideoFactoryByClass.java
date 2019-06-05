@@ -1,8 +1,4 @@
-package com.ylcyouth.desigin.pattern.creational.simplefactory;
-
-import com.ylcyouth.desigin.pattern.creational.simplefactory.abstractclass.Video;
-import com.ylcyouth.desigin.pattern.creational.simplefactory.object.JavaVideo;
-import com.ylcyouth.desigin.pattern.creational.simplefactory.object.PythonVedio;
+package com.ylcyouth.desigin.pattern.creational.n1simplefactory;
 
 /**
  * @author wjj
