@@ -1,4 +1,4 @@
-package com.ylcyouth.desigin.pattern.structural.flyweight;
+package com.ylcyouth.desigin.pattern.structural.n13flyweight;
 
 import java.util.HashMap;
 import java.util.Map;
