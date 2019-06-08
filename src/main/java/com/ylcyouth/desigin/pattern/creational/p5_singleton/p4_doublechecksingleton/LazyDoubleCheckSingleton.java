@@ -4,6 +4,9 @@ package com.ylcyouth.desigin.pattern.creational.p5_singleton.p4_doublechecksingl
  * @author ylcyouth
  * @create 2019/6/8 20:23
  *
+ * 如果不锁类的class文件就面临着重排序的问题
+ * 解决方法1：不允许正在初始化instance的线程重排序
+ *
  * Java语言规范里有一个 intra-thread semantics 规定，所有的线程在执行的时候都要遵守这个规定
  * intra-thread semantics可以保证单线程内的重排序不会影响单线程的执行结果
  * 这个重排序可以提高执行的性能
