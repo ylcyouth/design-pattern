@@ -1,7 +1,5 @@
 package com.ylcyouth.desigin.pattern.creational.n4builder.v2;
 
-import java.util.zip.CheckedOutputStream;
-
 /**
  * @author ylcyouth
  * @create 2019/6/8 16:03
