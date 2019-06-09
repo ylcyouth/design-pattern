@@ -7,10 +7,13 @@ package com.ylcyouth.desigin.pattern.creational.p5_singleton.p8_containersigleto
 public class Test {
 
     public static void main(String[] args) {
-        ContainerSingleton.putInstance("a", new Object());
-        ContainerSingleton.putInstance("b", new Object());
 
-        System.out.println(ContainerSingleton.getInstance("a"));
-        System.out.println(ContainerSingleton.getInstance("b"));
+        Thread t1 = new Thread(new T());
+        Thread t2 = new Thread(new T());
+
+        t1.start();
+        t2.start();
+
+        System.out.println("program end...");
     }
 }

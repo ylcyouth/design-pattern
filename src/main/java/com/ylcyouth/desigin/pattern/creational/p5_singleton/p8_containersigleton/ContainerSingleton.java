@@ -27,7 +27,4 @@ public class ContainerSingleton {
         return singletonMap.get(key);
     }
 
-
-
-
 }
