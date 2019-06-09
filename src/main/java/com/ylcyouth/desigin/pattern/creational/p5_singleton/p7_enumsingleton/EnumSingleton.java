@@ -4,7 +4,7 @@ package com.ylcyouth.desigin.pattern.creational.p5_singleton.p7_enumsingleton;
  * @author ylcyouth
  * @create 2019/6/9 10:59
  */
-public enum  EnumSingleton {
+public enum EnumSingleton {
 
     INSTANCE {
         protected void test() {
